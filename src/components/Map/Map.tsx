@@ -1,12 +1,13 @@
 import L from "leaflet";
-import React from "react";
+import React, {useMemo} from "react";
 import {MapContainer, Marker, TileLayer, Popup, useMap} from 'react-leaflet'
 import './Map.css'
 
-// 48.728596, 21.241314
-// 48.738467, 21.251611
+interface Props {
+    openInfo: Function;
+}
 
-export default function Map() {
+export default function Map(props: Props) {
     const bounds = L.latLngBounds(
         [48.728596, 21.240314], // Southwest corner (latitude, longitude)
         [48.738467, 21.251611]  // Northeast corner (latitude, longitude)
@@ -23,6 +24,16 @@ export default function Map() {
         return null;
     };
 
+    const eventHandlers = useMemo(
+        () => ({
+            click() {
+                console.log('SKIBDI')
+                props.openInfo()
+            },
+        }),
+        [],
+    )
+
     return (
         <MapContainer className="leaflet-container"
                       center={[48.732934, 21.245306]}
@@ -33,10 +44,8 @@ export default function Map() {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[48.732934, 21.245306]}>
-                <Popup>
-                    This is a popup
-                </Popup>
+            <Marker position={[48.732934, 21.245306]}
+                eventHandlers={eventHandlers}>
             </Marker>
             <SetBounds/>
         </MapContainer>

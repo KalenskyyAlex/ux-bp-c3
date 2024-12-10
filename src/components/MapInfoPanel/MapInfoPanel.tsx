@@ -1,12 +1,14 @@
-import { FunctionComponent } from 'react';
 import styles from './MapInfoPanel.module.css';
 import next from './next.svg'
 import image1 from './image1.png'
 import image2 from './image2.png'
 import CloseButton from "../CloseButton/CloseButton";
 
+interface Props {
+    onClick: Function;
+}
 
-const MapInfoPanel:FunctionComponent = () => {
+const MapInfoPanel = (props: Props) => {
     return (
         <div className={styles.mapInfoPanelContainer}>
             <div className={styles.rectangleParent}>
@@ -35,7 +37,7 @@ const MapInfoPanel:FunctionComponent = () => {
                     </div>
                 </div>
                 <div className={styles.title}>L9 - HLAVNÁ BUDOVA</div>
-                <CloseButton/>
+                <CloseButton onClick = {props.onClick}/>
             </div>
         </div>
     );

@@ -93,8 +93,9 @@
 .imageParent {
     position: absolute;
     top: 288px;
+    width: 320px;
     left: 32px;
-    overflow-x: auto;
+    overflow-x: scroll;
     display: flex;
     flex-direction: row;
     align-items: center;
