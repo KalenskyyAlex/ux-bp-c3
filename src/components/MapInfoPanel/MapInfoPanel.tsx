@@ -1,9 +1,9 @@
 import { FunctionComponent } from 'react';
 import styles from './MapInfoPanel.module.css';
-import close from './Icon.svg'
 import next from './next.svg'
 import image1 from './image1.png'
 import image2 from './image2.png'
+import CloseButton from "../CloseButton/CloseButton";
 
 
 const MapInfoPanel:FunctionComponent = () => {
@@ -35,9 +35,7 @@ const MapInfoPanel:FunctionComponent = () => {
                     </div>
                 </div>
                 <div className={styles.title}>L9 - HLAVNÁ BUDOVA</div>
-                <div className={styles.button02Secondary3}>
-                    <img className={styles.icon} alt="" src={close}/>
-                </div>
+                <CloseButton/>
             </div>
         </div>
     );

@@ -7,6 +7,9 @@
     object-fit: cover;
 }
 .placeholderText {
+    outline: none;
+    border: none;
+    background: none;
     position: absolute;
     width: calc(100% - 96px);
     top: calc(50% - 9px);
@@ -14,6 +17,7 @@
     letter-spacing: 0.16px;
     line-height: 18px;
     display: inline-block;
+    cursor: text;
 }
 .inputText {
     position: absolute;
@@ -32,8 +36,10 @@
     height: 1px;
 }
 .search {
-    width: 100%;
-    position: relative;
+    width: 384px;
+    z-index: 1000;
+    left: 32px;
+    position: absolute;
     background-color: #f4f4f4;
     height: 60px;
     text-align: left;
