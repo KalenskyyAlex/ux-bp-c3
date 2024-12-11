@@ -48,6 +48,7 @@ export default function Map(props: Props) {
                 eventHandlers={eventHandlers}>
             </Marker>
             <SetBounds/>
+
         </MapContainer>
     );
 }
