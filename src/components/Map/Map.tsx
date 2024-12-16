@@ -27,7 +27,6 @@ export default function Map(props: Props) {
     const eventHandlers = useMemo(
         () => ({
             click() {
-                console.log('SKIBDI')
                 props.openInfo()
             },
         }),
@@ -48,7 +47,6 @@ export default function Map(props: Props) {
                 eventHandlers={eventHandlers}>
             </Marker>
             <SetBounds/>
-
         </MapContainer>
     );
 }
