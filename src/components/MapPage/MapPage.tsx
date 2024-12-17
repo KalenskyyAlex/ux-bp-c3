@@ -28,7 +28,7 @@ function MapPage() {
 
     return (
         <div className="App">
-            <Search/>
+            <Search onClick={openThis}/>
             {isClosed ? null :
                 <MapInfoPanel onClick={closeThis} onNavigate={startNavigate}/>
             }

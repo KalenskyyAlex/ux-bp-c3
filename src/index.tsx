@@ -7,6 +7,7 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
+import VTPage from "./components/VTPage/VTPage";
 
 const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     {
         path: "/info",
         element: <InfoPage/>,
+    },
+    {
+        path: "/virtual-tour",
+        element: <VTPage/>
     }
 ]);
 

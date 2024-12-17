@@ -1,0 +1,111 @@
+.image1Icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.vv1Lg1056px16ColumnItem {
+    position: absolute;
+    top: 32px;
+    left: 51px;
+    width: 224px;
+    height: 204px;
+    object-fit: cover;
+}
+.outsideMarginIcon {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.vv1Lg1056px16ColumnChild {
+    position: absolute;
+    top: 0px;
+    left: 32px;
+    width: 224px;
+    height: 204px;
+    object-fit: cover;
+}
+.text {
+    position: relative;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+}
+.icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.button02Secondary {
+    position: absolute;
+    top: 218px;
+    left: 32px;
+    background-color: #da1e28;
+    width: 224px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+.marker12Icon {
+    position: absolute;
+    top: 148px;
+    left: 175px;
+    width: 6px;
+    height: 6px;
+}
+.chevronUpIcon {
+    position: absolute;
+    top: 355px;
+    left: 489px;
+    width: 77px;
+    height: 50px;
+}
+.icon1 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.button02Secondary1 {
+    position: absolute;
+    top: 232px;
+    left: 518px;
+    background-color: #0f62fe;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.vv1Lg1056px16Column {
+    width: 100vw;
+    position: relative;
+    background-color: #e5e5e5;
+    height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+}
+
+#panoCont canvas {
+    pointer-events: auto; /* Ensure mouse interactions work */
+}
+
+.panolens-infospot {
+    pointer-events: auto; /* Ensure Infospot interactions are enabled */
+    cursor: pointer;      /* Change cursor to pointer on hover */
+}
+
+
