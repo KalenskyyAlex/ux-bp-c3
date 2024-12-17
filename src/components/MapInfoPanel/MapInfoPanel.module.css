@@ -52,36 +52,6 @@
     opacity: 0;
 }
 
-.button02Secondary1 {
-    position: absolute;
-    top: 438px;
-    left: 32px;
-    background-color: #0f62fe;
-    width: 96px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 16px;
-    box-sizing: border-box;
-}
-
-.button02Secondary2 {
-    position: absolute;
-    top: 438px;
-    left: 160px;
-    background-color: #0f62fe;
-    width: 160px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 16px;
-    box-sizing: border-box;
-}
-
 .imageIcon {
     width: 176px;
     position: relative;

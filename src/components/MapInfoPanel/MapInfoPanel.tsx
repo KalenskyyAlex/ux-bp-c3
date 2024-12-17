@@ -3,8 +3,10 @@ import next from './next.svg'
 import image1 from './image1.png'
 import image2 from './image2.png'
 import CloseButton from "../CloseButton/CloseButton";
-import PrimaryButton from "../PrimaryButton/PrimaryButton";
+import InfoButton from "../PrimaryButton/PrimaryButton";
 import {useNavigate} from "react-router-dom";
+import NavigateButton from "../NavigateButton/NavigateButton";
+import VTButton from "../VTButton/VTButton";
 
 interface Props {
     onClick: Function;
@@ -15,13 +17,9 @@ const MapInfoPanel = (props: Props) => {
         <div className={styles.mapInfoPanelContainer}>
             <div className={styles.rectangleParent}>
                 <div className={styles.groupChild}/>
-                <PrimaryButton navigateTo={'/info'} text={"Viac"} icon={next} onClick={() => null}/>
-                <div className={styles.button02Secondary1}>
-                    <div className={styles.text}>Navigovať</div>
-                </div>
-                <div className={styles.button02Secondary2}>
-                    <div className={styles.text}>Začiať prehliadku</div>
-                </div>
+                <InfoButton navigateTo={'/info'} text={"Viac"} icon={next} onClick={() => null}/>
+                <NavigateButton text={"Navigovať"} onClick={() => null}/>
+                <VTButton text={"Začiať prehliadku"} onClick={() => null}/>
                 <div className={styles.imageParent}>
                     <img className={styles.imageIcon} alt="" src={image1}/>
                     <img className={styles.imageIcon} alt="" src={image2}/>
