@@ -17,11 +17,11 @@ function InfoPage() {
 
     return (
         <div className="App">
-            <Search/>
-            {   isClosed ? null :
-                <MapInfoPanel onClick={closeThis}/>
-            }
-            <Map openInfo={openThis}/>
+            {/*<Search/>*/}
+            {/*{   isClosed ? null :*/}
+            {/*    <MapInfoPanel onClick={closeThis}/>*/}
+            {/*}*/}
+            {/*<Map openInfo={openThis} isNavigating={isNavigating}/>*/}
         </div>
     );
 }

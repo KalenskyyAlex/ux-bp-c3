@@ -6,6 +6,7 @@ import Search from "../Search/Search";
 
 function MapPage() {
     const [isClosed, setIsClosed] = useState(true);
+    const [isNavigating, setIsNavigating] = useState(false);
 
     const closeThis = () => {
         setIsClosed(true)
@@ -15,13 +16,17 @@ function MapPage() {
         setIsClosed(false)
     }
 
+    const startNavigate = () => {
+        setIsNavigating(true)
+    }
+
     return (
         <div className="App">
             <Search/>
             {   isClosed ? null :
-                <MapInfoPanel onClick={closeThis}/>
+                <MapInfoPanel onClick={closeThis} onNavigate={startNavigate}/>
             }
-            <Map openInfo={openThis}/>
+            <Map isNavigating={isNavigating} openInfo={openThis}/>
         </div>
     );
 }

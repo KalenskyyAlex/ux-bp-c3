@@ -10,6 +10,7 @@ import VTButton from "../VTButton/VTButton";
 
 interface Props {
     onClick: Function;
+    onNavigate: Function;
 }
 
 const MapInfoPanel = (props: Props) => {
@@ -18,7 +19,7 @@ const MapInfoPanel = (props: Props) => {
             <div className={styles.rectangleParent}>
                 <div className={styles.groupChild}/>
                 <InfoButton navigateTo={'/info'} text={"Viac"} icon={next} onClick={() => null}/>
-                <NavigateButton text={"Navigovať"} onClick={() => null}/>
+                <NavigateButton text={"Navigovať"} onClick={() => {console.log('invoked'); props.onNavigate()}}/>
                 <VTButton text={"Začiať prehliadku"} onClick={() => null}/>
                 <div className={styles.imageParent}>
                     <img className={styles.imageIcon} alt="" src={image1}/>
