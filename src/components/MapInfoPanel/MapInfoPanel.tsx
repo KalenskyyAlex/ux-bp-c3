@@ -3,6 +3,8 @@ import next from './next.svg'
 import image1 from './image1.png'
 import image2 from './image2.png'
 import CloseButton from "../CloseButton/CloseButton";
+import PrimaryButton from "../PrimaryButton/PrimaryButton";
+import {useNavigate} from "react-router-dom";
 
 interface Props {
     onClick: Function;
@@ -13,10 +15,7 @@ const MapInfoPanel = (props: Props) => {
         <div className={styles.mapInfoPanelContainer}>
             <div className={styles.rectangleParent}>
                 <div className={styles.groupChild}/>
-                <div className={styles.button02Secondary}>
-                    <div className={styles.text}>Viac</div>
-                    <img className={styles.icon} alt="" src={next}/>
-                </div>
+                <PrimaryButton navigateTo={'/info'} text={"Viac"} icon={next} onClick={() => null}/>
                 <div className={styles.button02Secondary1}>
                     <div className={styles.text}>Navigovať</div>
                 </div>

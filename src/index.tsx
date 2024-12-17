@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import MapPage from './components/MapPage/MapPage';
+import InfoPage from "./components/InfoPage/InfoPage";
 import {
     createBrowserRouter,
     RouterProvider,
@@ -10,8 +11,12 @@ import {
 const router = createBrowserRouter([
     {
         path: "/map",
-        element: <App/>,
+        element: <MapPage/>,
     },
+    {
+        path: "/info",
+        element: <InfoPage/>,
+    }
 ]);
 
 

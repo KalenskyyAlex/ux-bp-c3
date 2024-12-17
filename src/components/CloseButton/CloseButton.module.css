@@ -3,10 +3,14 @@
     position: relative;
     height: 16px;
 }
+
 .button02Secondary {
     width: 32px;
     position: relative;
-    background-color: #DA1E28;
+    --button-primary: #DA1E28;
+    --button-hover: #BA1B23;
+    --button-active: #750E13;
+    --button-focus-outline: #0F62FE;
     height: 32px;
     overflow: hidden;
     display: flex;

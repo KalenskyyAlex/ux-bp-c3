@@ -1,0 +1,32 @@
+.text {
+    position: relative;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+}
+.icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.button02Secondary {
+    position: absolute;
+    top: 222px;
+    left: 160px;
+    --button-primary: #0f62fe;
+    --button-hover: #0353E9;
+    --button-active: #002D9C;
+    --button-focus-outline: #0F62FE;
+    width: 160px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+

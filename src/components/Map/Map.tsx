@@ -1,6 +1,6 @@
 import L from "leaflet";
 import React, {useMemo} from "react";
-import {MapContainer, Marker, TileLayer, Popup, useMap} from 'react-leaflet'
+import {MapContainer, Marker, TileLayer, useMap} from 'react-leaflet'
 import './Map.css'
 
 interface Props {
@@ -43,8 +43,20 @@ export default function Map(props: Props) {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[48.732934, 21.245306]}
+            <Marker position={[48.7307260, 21.2459920]}
                 eventHandlers={eventHandlers}>
+            </Marker>
+            <Marker position={[48.7310410, 21.2448280]}
+                    eventHandlers={eventHandlers}>
+            </Marker>
+            <Marker position={[48.7316250, 21.2435840]}
+                    eventHandlers={eventHandlers}>
+            </Marker>
+            <Marker position={[48.7317560, 21.2442030]}
+                    eventHandlers={eventHandlers}>
+            </Marker>
+            <Marker position={[48.7323110, 21.2467190]}
+                    eventHandlers={eventHandlers}>
             </Marker>
             <SetBounds/>
         </MapContainer>

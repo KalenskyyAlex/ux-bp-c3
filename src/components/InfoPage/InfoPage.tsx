@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import Map from './components/Map/Map'
-import './App.css';
-import MapInfoPanel from "./components/MapInfoPanel/MapInfoPanel";
-import Search from "./components/Search/Search";
+import Map from '../Map/Map'
+import './InfoPage.css';
+import MapInfoPanel from "../MapInfoPanel/MapInfoPanel";
+import Search from "../Search/Search";
 
-function App() {
+function InfoPage() {
     const [isClosed, setIsClosed] = useState(true);
 
     const closeThis = () => {
@@ -26,4 +26,4 @@ function App() {
     );
 }
 
-export default App;
+export default InfoPage;
