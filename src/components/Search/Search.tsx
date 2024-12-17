@@ -1,9 +1,11 @@
-import {useState} from 'react';
+import React, {useState} from 'react';
 import styles from './Search.module.css';
 import search from './search.svg';
 import budova from './budova.svg';
 import kniznica from './kniznica.svg';
 import miestnost from './miestnost.svg';
+import SearchFilter from "../SearchFilter/SearchFilter";
+import filter from './filter.svg';
 
 interface Props {
     onClick: Function;
@@ -40,6 +42,7 @@ const Search = (props: Props) => {
     const [inputValue, setInputValue] = useState("");
     const [filteredOptions, setFilteredOptions] = useState<{name: string, icon: string}[]>([]);
     const [showDropdown, setShowDropdown] = useState(false);
+    const [showFilter, setShowFilter] = useState(false);
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value;
@@ -68,6 +71,11 @@ const Search = (props: Props) => {
 
     return (
         <div className={styles.search}>
+            {
+                showFilter ?
+                    <SearchFilter closeFilter={() => setShowFilter(false)}/>
+                : null
+            }
             <img className={styles.searchIcon} alt="" src={search} />
             <input className={styles.placeholderText}
                    value={inputValue}
@@ -76,7 +84,8 @@ const Search = (props: Props) => {
                    onBlur={() => setTimeout(() => setShowDropdown(false), 200)}
                    placeholder={"Hľadaj priestor"}
             />
-            <div className={styles.borderBottom} />
+            <img onClick={() => setShowFilter(true)} className={styles.filterButton} src={filter} alt=""/>
+            <div className={styles.borderBottom}/>
             {showDropdown && filteredOptions.length > 0 && (
                 <div className={styles.optionContainer}>
                     {

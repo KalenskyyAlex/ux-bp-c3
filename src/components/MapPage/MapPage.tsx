@@ -4,6 +4,7 @@ import './MapPage.css';
 import MapInfoPanel from "../MapInfoPanel/MapInfoPanel";
 import Search from "../Search/Search";
 import NavigationPanel from "../NavigationPanel/NavigationPanel";
+import SearchFilter from "../SearchFilter/SearchFilter";
 
 function MapPage() {
     const [isClosed, setIsClosed] = useState(true);

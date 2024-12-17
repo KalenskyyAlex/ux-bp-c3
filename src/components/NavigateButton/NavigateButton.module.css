@@ -31,3 +31,11 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+@media (max-width: 600px) {
+    .button02Secondary {
+        position: absolute;
+        top: 280px;
+        left: 32px;
+        width: calc(50% - 32px - 8px)
+    }
+}

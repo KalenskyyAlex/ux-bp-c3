@@ -63,6 +63,14 @@
     background-color: #8d8d8d;
     height: 1px;
 }
+.filterButton{
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 14px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
 .search {
     width: 384px;
     z-index: 1000;
@@ -74,5 +82,17 @@
     font-size: 14px;
     color: #a8a8a8;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .search {
+        width: 100vw;
+        left: 0;
+    }
+
+    .optionContainer {
+        width: 100vw;
+        max-height: 180px;
+    }
 }
 

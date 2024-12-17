@@ -1,0 +1,132 @@
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #f4f4f4;
+    width: 384px;
+    height: 288px;
+}
+.text {
+    position: relative;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+}
+.icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.button02Secondary {
+    position: absolute;
+    top: 228px;
+    left: 32px;
+    background-color: #da1e28;
+    width: 127px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+.icon1 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button02Secondary1 {
+    position: absolute;
+    top: 229px;
+    left: 224px;
+    background-color: #0f62fe;
+    width: 128px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+.labelText {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 0.32px;
+    line-height: 16px;
+    color: #525252;
+}
+.checkbox {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border: 1px solid #161616;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+}
+.focus {
+    width: 22px;
+    position: relative;
+    height: 22px;
+}
+.text2 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px 0px;
+}
+.checkbox1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.checkboxGroup {
+    position: absolute;
+    top: 12px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #161616;
+}
+.checkboxGroup1 {
+    position: absolute;
+    top: 12px;
+    left: 224px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #161616;
+}
+.rectangleParent {
+    width: 100%;
+    position: relative;
+    top: 60px;
+    height: 288px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+}
+
+@media (max-width: 600px) {
+    .rectangleParent {
+        width: 100vw;
+        left: 0;
+    }
+
+    .groupChild {
+        width: 100vw;
+    }
+}

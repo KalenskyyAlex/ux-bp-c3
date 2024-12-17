@@ -142,3 +142,34 @@
     font-family: 'IBM Plex Sans';
 }
 
+@media (max-width: 600px) {
+    .mapInfoPanelContainer {
+        font-size: 12px;
+        position: absolute;
+        top: 60vh;
+        display: block;
+        z-index: 1000;
+
+        width: 100vw;
+        max-width: 100vw;
+        height: 40vh;
+        left: 0;
+    }
+
+    .mapInfoPanelContainer * {
+        width: 90vw;
+        max-width: 100vw;
+    }
+
+    .imageParent {
+        display: none;
+    }
+
+    .rectangleParent {
+        width: 100vw;
+    }
+
+    .groupChild {
+        width: 100vw;
+    }
+}
