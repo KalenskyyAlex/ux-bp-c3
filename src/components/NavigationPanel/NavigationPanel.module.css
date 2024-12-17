@@ -1,0 +1,126 @@
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 352px;
+    height: 348px;
+}
+.div {
+    position: absolute;
+    top: 223px;
+    left: 162px;
+    line-height: 40px;
+}
+.rectangleParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 352px;
+    height: 348px;
+    font-size: 32px;
+    color: #cacaca;
+}
+.text {
+    position: relative;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+}
+.icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.button02Secondary {
+    position: absolute;
+    top: 72px;
+    left: 32px;
+    background-color: #0f62fe;
+    width: 288px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+.icon1 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    object-fit: cover;
+}
+.button02Secondary1 {
+    position: absolute;
+    top: 288px;
+    left: 32px;
+    background-color: #0f62fe;
+    width: 288px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+.button02Secondary2 {
+    position: absolute;
+    top: 120px;
+    left: 32px;
+    background-color: #c6c6c6;
+    width: 256px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+.button02Secondary3 {
+    position: absolute;
+    top: 168px;
+    left: 32px;
+    background-color: #c6c6c6;
+    width: 256px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+}
+.button02Secondary4 {
+    position: absolute;
+    top: 14px;
+    left: 32px;
+    background-color: #da1e28;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.groupParent {
+    position: absolute;
+    right: -48px;
+    top: 20%;
+    width: 400px;
+    max-width: 400px;
+    display: block;
+    z-index: 1000;
+    height: 348px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
