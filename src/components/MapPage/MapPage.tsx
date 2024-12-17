@@ -29,12 +29,11 @@ function MapPage() {
     return (
         <div className="App">
             <Search/>
-            {   isClosed ? null :
+            {isClosed ? null :
                 <MapInfoPanel onClick={closeThis} onNavigate={startNavigate}/>
             }
-            {
-                !isNavigating ? null :
-                    <NavigationPanel onClick={closeNavigate}/>
+            {!isNavigating ? null :
+                <NavigationPanel onClick={closeNavigate}/>
             }
             <Map isNavigating={isNavigating} openInfo={openThis}/>
         </div>

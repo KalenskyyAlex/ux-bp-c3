@@ -1,0 +1,26 @@
+.icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+
+.button02Secondary {
+    --button-primary: #DA1E28;
+    --button-hover: #BA1B23;
+    --button-active: #750E13;
+    --button-focus-outline: #0F62FE;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 258px;
+    left: 51px;
+    background-color: #da1e28;
+    width: 224px;
+    justify-content: space-between;
+    padding: 15px 16px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
