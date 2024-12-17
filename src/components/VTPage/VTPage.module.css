@@ -108,4 +108,12 @@
     cursor: pointer;      /* Change cursor to pointer on hover */
 }
 
+@media (max-width: 600px) {
+    .vv1Lg1056px16ColumnItem {
+        width: 80vw;
+        height: 20vh;
+        left: 0;
+        top: 0;
+    }
+}
 

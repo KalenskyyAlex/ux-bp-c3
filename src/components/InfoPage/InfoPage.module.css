@@ -1,134 +1,203 @@
 .vv1Lg1056px16ColumnChild {
-  position: absolute;
-  top: 12px;
-  left: 32px;
-  background-color: #fff;
-  width: calc(100vw - 280px);
-  height: 97vh;
+    position: absolute;
+    top: 12px;
+    left: 32px;
+    background-color: #fff;
+    width: calc(100vw - 280px);
+    height: 97vh;
 }
+
 .vv1Lg1056px16ColumnItem {
-  position: absolute;
-  top: 32px;
-  left: 51px;
-  width: 224px;
-  height: 204px;
-  object-fit: cover;
+    position: absolute;
+    top: 32px;
+    left: 51px;
+    width: 224px;
+    height: 204px;
+    object-fit: cover;
 }
+
 .l9Hlavn {
-  position: absolute;
-  top: 32px;
-  left: 320px;
-  font-size: 20px;
-  line-height: 28px;
-  white-space: pre-wrap;
-  display: inline-block;
-  width: calc(100vw - 280px)
+    position: absolute;
+    top: 32px;
+    left: 320px;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: calc(100vw - 280px)
 }
+
 .text {
-  position: relative;
-  letter-spacing: 0.16px;
-  line-height: 18px;
+    position: relative;
+    letter-spacing: 0.16px;
+    line-height: 18px;
 }
+
 .icon {
-  width: 16px;
-  position: relative;
-  height: 16px;
+    width: 16px;
+    position: relative;
+    height: 16px;
 }
+
 .typBudova {
-  margin: 0;
-  line-height: 24px;
+    margin: 0;
+    line-height: 24px;
 }
+
 .fakltaVetky1 {
-  line-height: 24px;
+    line-height: 24px;
 }
+
 .span {
-  font-size: 14px;
-  letter-spacing: 0.16px;
-  line-height: 20px;
-  white-space: pre-wrap;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    line-height: 20px;
+    white-space: pre-wrap;
 }
+
 .fakltaVetky {
-  margin: 0;
+    margin: 0;
 }
+
 .adresaLetn9Container {
-  position: absolute;
-  top: 328px;
-  left: 51px;
-  display: inline-block;
-  width: 224px;
-  font-size: 16px;
+    position: absolute;
+    top: 328px;
+    left: 51px;
+    display: inline-block;
+    width: 224px;
+    font-size: 16px;
 }
+
 .hlavnBudovaTechnickej {
-  margin: 0;
-  letter-spacing: 0.16px;
-  line-height: 20px;
+    margin: 0;
+    letter-spacing: 0.16px;
+    line-height: 20px;
 }
+
 .architektra {
-  margin: 0;
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
 }
+
 .hlavnBudovaTechnickejContainer {
-  align-self: stretch;
-  position: relative;
+    align-self: stretch;
+    position: relative;
 }
+
 .hlavnBudovaTechnickejUniveWrapper {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: calc(100vw - 600px);
-  height: 88vh;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100vw - 600px);
+    height: 88vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 .vv1Lg1056px16ColumnInner {
-  position: absolute;
-  top: 72px;
-  left: 320px;
-  width: calc(100vw - 280px);
-  height: 95vh;
+    position: absolute;
+    top: 72px;
+    left: 320px;
+    width: calc(100vw - 280px);
+    height: 95vh;
 }
+
 .marker12Icon {
-  position: absolute;
-  top: 196px;
-  left: 173px;
-  width: 8px;
-  height: 8px;
+    position: absolute;
+    top: 196px;
+    left: 173px;
+    width: 8px;
+    height: 8px;
 }
+
 .imageIcon {
-  align-self: stretch;
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  height: 132px;
-  flex-shrink: 0;
-  object-fit: cover;
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 132px;
+    flex-shrink: 0;
+    object-fit: cover;
 }
+
 .imageParent {
-  position: absolute;
-  top: 13px;
-  left: calc(100vw - 220px);
-  width: 200px;
-  height: 100vh;
-  overflow-x: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 16px;
+    position: absolute;
+    top: 13px;
+    left: calc(100vw - 220px);
+    width: 200px;
+    height: 100vh;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
 }
+
 .vv1Lg1056px16Column {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  background-color: #393939;
-  overflow: hidden;
-  text-align: left;
-  font-size: 20px;
-  color: #000;
-  font-family: 'IBM Plex Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #393939;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .vv1Lg1056px16ColumnItem {
+        width: 80vw;
+        height: 20vh;
+        left: 0;
+        top: 0;
+    }
+
+    .imageParent {
+        flex-direction: row;
+        width: 100%;
+        left: 16px;
+        right: 16px;
+        top: 83vh;
+    }
+
+    .vv1Lg1056px16ColumnChild {
+        width: calc(100vw);
+        left: 0;
+        height: 100vh;
+    }
+
+    .vv1Lg1056px16ColumnInner {
+        position: absolute;
+        top: 20vh;
+        left: 0;
+        width: 100vw;
+        height: 95vh;
+    }
+
+    .hlavnBudovaTechnickejUniveWrapper {
+        position: absolute;
+        top: 1vh;
+        left: 1vh;
+        width: 98vw;
+        height: 60vh;
+    }
+
+    .typBudova {
+        display: none;
+    }
+
+    .fakltaVetky {
+        display: none;
+    }
+
+    .marker12Icon {
+        display: none;
+    }
 }
